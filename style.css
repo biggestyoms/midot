@@ -555,11 +555,11 @@ list-style: none;
     /* container part */
     .container{
         padding: 0 7%;
-        height: 100%;
+        
         
     }
     .header h1{
-        font-size: 7vw;
+        font-size: 10vw;
         font-weight: 500;
         color: white;
         text-align: center;
@@ -568,18 +568,21 @@ list-style: none;
     .search-bar{
         background: white;
        width: 70%;
-       margin: 30px auto; 
+       margin: 50px auto; 
        padding: 6px 10px 6px 30px;
        border-radius: 50px;
+       height:45vh;
     
     }
     .search-bar form{
         display: flex;
         align-items:center;
         flex-wrap:wrap ;
-        gap: 10px;
+        gap: 25px;
         margin: 5px;
         padding: 10px;
+        font-size: 29px;
+        color: #333;
     }
     .search-bar form button{
         background: #e87502db;
