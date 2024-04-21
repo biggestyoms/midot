@@ -21,23 +21,18 @@ loginLink.addEventListener('click', ()=> (
         wrapper.classList.remove('active-popup')
     });
 
+
 window.addEventListener("scroll", function(){
     var scrollHeight = document.getElementById('toggle-form');
     var scrollPosition = window.scrollY;
-    var triggerHeight = 500;
+    var triggerHeightShow = 500;
+    var triggerHeightHide = 3000;
 
-    if (scrollPosition > 1000) {
-        triggerHeight = 800;
-    }
-
-    if (scrollPosition >=
-        triggerHeight) {
-        scrollHeight.style.display =
-        "block";
-        } else {
+    if (scrollPosition >= triggerHeightShow && scrollPosition < triggerHeightHide) {
+        scrollHeight.style.display = "block";
+    } else {
         scrollHeight.style.display = "none";
     }
-    
 });
 
 
