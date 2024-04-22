@@ -114,12 +114,14 @@ nav .logo span{
 }
 .search-bar form button{
     background: #e87502db;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
+    width: 75px;
+    height: 40px;
     border: 0;
     outline: none;
     cursor: pointer;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 500;
 
 }
 .search-bar form button i{
@@ -559,6 +561,15 @@ list-style: none;
         color: white;
         text-align: center;
         padding-top: 33%;
+        animation: fadeIn 5s;
+    }
+    @keyframes fadeIn {
+        0%{
+          opacity: 0;
+        }
+        100%{
+          opacity: 1;
+        }
     }
     .search-bar{
         background: white;
@@ -579,14 +590,15 @@ list-style: none;
         color: #333;
     }
     .search-bar form button{
-        background: white;
-        width: 45px;
-        height: 45px;
-        border-radius: 50%;
+        background: #e87502db;
+        width: 75px;
+        height: 40px;
         border: 0;
         outline: none;
         cursor: pointer;
-        color: black;
+        border-radius: 50px;
+        font-size: 1rem;
+        font-weight: 500;
         
     
     }
@@ -605,6 +617,7 @@ list-style: none;
        right: 5%;
        display: none;
        z-index: 1;
+
   
     
     }
