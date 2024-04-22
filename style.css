@@ -122,6 +122,7 @@ nav .logo span{
     border-radius: 50px;
     font-size: 1rem;
     font-weight: 500;
+    color: black;
 
 }
 .search-bar form button i{
@@ -150,8 +151,6 @@ nav .logo span{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
     grid-gap: 10px;
-    /* height: 400px;
-    overflow: hidden; */
 }
 .exclusives div img{
     width: 100%;
@@ -599,6 +598,7 @@ list-style: none;
         border-radius: 50px;
         font-size: 1rem;
         font-weight: 500;
+        color: black;
         
     
     }
@@ -660,8 +660,39 @@ list-style: none;
     text-decoration: black;
 
     }
-    
-    
+/*     
+    exclusives */
+    .exclusives{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+        grid-gap: 10px;
+    }
+    .exclusives div img{
+        width: 100%;
+        border-radius:30px ;
+        padding: 10px;
+        height: 90%;
+        transition: 0.3s ease-in-out;
+        overflow: hidden;
+    }
+    .exclusives div{
+        position: relative;
+    }
+    .exclusives div h3{
+        color:black;
+    font-size: 12px;
+      position: absolute;
+      left: -9px;
+      bottom: -70px;
+      padding: 10px;
+      
+     
+    }
+    .exclusives div p{
+        display: none;
+    }
+
+  
 }
 
 
