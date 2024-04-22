@@ -173,6 +173,9 @@ nav .logo span{
   display: none;
  
 }
+.video{
+    display: none;
+}
 .images:hover .text{
     display: block;
    
@@ -660,39 +663,37 @@ list-style: none;
     text-decoration: black;
 
     }
-/*     
-    exclusives */
-    .exclusives{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
-        grid-gap: 10px;
-    }
-    .exclusives div img{
-        width: 100%;
-        border-radius:30px ;
-        padding: 10px;
-        height: 90%;
-        transition: 0.3s ease-in-out;
-        overflow: hidden;
-    }
-    .exclusives div{
-        position: relative;
-    }
-    .exclusives div h3{
-        color:black;
-    font-size: 12px;
-      position: absolute;
-      left: -9px;
-      bottom: -70px;
-      padding: 10px;
-      
-     
-    }
-    .exclusives div p{
-        display: none;
-    }
+ /* excliusives */
+.container2{
+    display: none;
+}
+  .video{
+    display: block; 
+  }
+  .myVideo{
+    width: 100%;
+    height: 20%;
 
+  }
+  #myVideo::-webkit-media-controls-start-playback-button {
+    display: none; /* Hide the default play button on Chrome */
+  }
   
+  #myVideo::-webkit-media-controls-play-button {
+    display: none; /* Hide the default play button on Safari */
+  }
+  
+  #myVideo::-webkit-media-controls {
+    display: none; /* Hide all media controls on Safari */
+  }
+  
+  #myVideo::-webkit-media-controls-enclosure {
+    display: none; /* Hide the media controls enclosure on Safari */
+  }
+  
+  #myVideo::-webkit-media-controls-panel {
+    display: none; /* Hide the media controls panel on Safari */
+  }
 }
 
 

@@ -36,6 +36,12 @@ window.addEventListener("scroll", function(){
 });
 
 
+// video
+document.getElementById('myVideo').addEventListener('ended', function() {
+    this.currentTime = 0; // Reset video to beginning
+    this.play(); // Play the video again
+  });
+
 
 document.getElementById("showButton").addEventListener("click", function() {
     var hiddenImages = document.querySelectorAll(".images");
