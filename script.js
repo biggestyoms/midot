@@ -25,7 +25,7 @@ loginLink.addEventListener('click', ()=> (
 window.addEventListener("scroll", function(){
     var scrollHeight = document.getElementById('toggle-form');
     var scrollPosition = window.scrollY;
-    var triggerHeightShow = 500;
+    var triggerHeightShow = 720;
     var triggerHeightHide = 3000;
 
     if (scrollPosition >= triggerHeightShow && scrollPosition < triggerHeightHide) {
