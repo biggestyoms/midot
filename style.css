@@ -620,6 +620,7 @@ list-style: none;
        right: 5%;
        display: none;
        z-index: 1;
+       
 
   
     
@@ -631,11 +632,17 @@ list-style: none;
      
     }
     .search-bar1 form button{
-        background:white;
-        color: black;
+        background:transparent;
+        color: #e87502db;
         width: 45px;
-        height: 45px;
+        height: 50px;
         cursor: pointer;
+        border-radius: 0;
+        border: transparent;
+        position: absolute;
+        right: -8px;
+        top: ;
+        
     }
     
     
@@ -670,6 +677,7 @@ list-style: none;
 .container3{
     display: block;
     width: 100%;
+    height: 100%;
 }
 .container3 h2{
     margin: 50px 0 50px 40px;
@@ -708,6 +716,70 @@ list-style: none;
     overflow: hidden;
     height: 20vh;
     animation: fadeIn 3s;
+}
+
+/* how it works */
+.how-it-works{
+    height: 40vh;
+    display: flex;
+    height: 100%;
+    
+}
+.hiw-content{
+    display: flex;
+    flex: 1;
+}
+.hiw-left{
+    margin: 15vh 9vh 0 4vh;
+    width: 50%;
+  flex: 1;
+height: 100%;
+   
+}
+.hiw-left h2{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(45, 45, 104);
+}
+.hiw-left p{
+    font-size: 21px;
+    padding: 10px 0 10px;
+    font-weight: 100;
+}
+.hiw-left button{
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgb(244, 85, 5);
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    margin-left: -2vh;
+  
+}
+.hiw-list{
+    margin: 5vh 9vh 0 0;
+    width: 50%;
+    flex: 1;
+    height: 100%;
+
+}
+.hiw-list li{
+padding: 2px;
+font-size:13px ;
+color: rgb(45, 45, 104);
+list-style: none;
+
+
+}
+.hiw-list li i{
+    font-size: 17px;
+}
+.hiw-list li h2{
+    font-weight: 400;
+    padding: 3px 0 0 0;
+}
+.hiw-list li p{
+    font-size: 8px;
 }
 
 
