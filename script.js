@@ -44,9 +44,7 @@ document.getElementById("showButton").addEventListener("click", function() {
         image.classList.toggle("visible");
     });
 });
-// talk to an expert button
-// function openPage(){
-//     window.location.href = ;
-// }
+
+
 
 

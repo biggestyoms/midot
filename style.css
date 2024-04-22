@@ -432,8 +432,12 @@ transform: scale(0);
     background-color: white;
     color: #333;
 }
+.hiw-left button a{
+    text-decoration: none;
+    color: #333;
+}
 .hiw-list{
-    margin: 15vh 9vh 0 0;
+    margin: 5vh 9vh 0 0;
     width: 50%;
 
 }
@@ -641,7 +645,7 @@ list-style: none;
         border: transparent;
         position: absolute;
         right: -8px;
-        top: ;
+        
         
     }
     
