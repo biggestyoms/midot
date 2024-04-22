@@ -26,7 +26,7 @@ window.addEventListener("scroll", function(){
     var scrollHeight = document.getElementById('toggle-form');
     var scrollPosition = window.scrollY;
     var triggerHeightShow = 720;
-    var triggerHeightHide = 3000;
+    var triggerHeightHide = 1700;
 
     if (scrollPosition >= triggerHeightShow && scrollPosition < triggerHeightHide) {
         scrollHeight.style.display = "block";
@@ -35,12 +35,6 @@ window.addEventListener("scroll", function(){
     }
 });
 
-
-// video
-document.getElementById('myVideo').addEventListener('ended', function() {
-    this.currentTime = 0; // Reset video to beginning
-    this.play(); // Play the video again
-  });
 
 
 document.getElementById("showButton").addEventListener("click", function() {
