@@ -712,12 +712,14 @@ list-style: none;
     }
 }
 .new-container img{
-    width: 100%;
+    width: 80%;
     border-radius:30px;
     transition: 0.3s ease-in-out;
     overflow: hidden;
     height: 20vh;
     animation: fadeIn 3s;
+    margin: 10px;
+   
    
 }
 
