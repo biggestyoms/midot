@@ -790,6 +790,55 @@ list-style: none;
 
 
 }
+@media(max-width:993px){
+    .header{
+        width: 100%;
+
+    }
+    nav a.logo{
+        font-size: 1.3rem;
+        flex: 1;
+      
+    }
+    .nav-link{
+        display: flex;
+        position:absolute;
+        gap: 1px;
+        font-size: 12px;
+        left: 23%;
+        padding: 12px;
+        flex: 1;
+        margin-left: 20px;
+    }
+    nav a.register-btn{
+        position: absolute;
+        right: 16px;
+        margin-left: 20px;
+        flex: 1;
+
+    }
+}
+@media(max-width:690px){
+    .nav-link{
+        display: flex;
+        position:absolute;
+        gap: 0px;
+        font-size: 12px;
+        left: 17%;
+        justify-content: space-evenly;
+        
+        flex: 1;
+        margin-left: 20px;
+    }
+
+}
+@media(max-width:635px){
+    .nav-link{
+        display: none;
+    }
+
+}
+
 
 
 
