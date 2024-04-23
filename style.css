@@ -692,10 +692,8 @@ list-style: none;
 }
 .new-container{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    
-    grid-gap: 10px;
-
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
 }
 .new-container h3{
     font-size: 16px;
@@ -712,10 +710,9 @@ list-style: none;
     }
 }
 .new-container img{
-    width: 100%;
-    border-radius:30px ;
-    padding: 5px;
-    height: 90%;
+    
+    border-radius:30px;
+    /* padding: 5px; */
     transition: 0.3s ease-in-out;
     overflow: hidden;
     height: 20vh;
