@@ -714,7 +714,7 @@ transition: 0.3s ease;
 /* MEDIA QUERY */
 @media(max-width:430px) {
     .footer-form{
-        background: url(./IMG_7691.WEBP) no-repeat;
+        background: url(./IMG_7691.WEBP);
         
     }
     /* nav part */
