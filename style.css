@@ -592,14 +592,18 @@ nav .logo span {
 }
 .footer-form{
     width: 100%;
-    height: 90vh;
-    background: #f29231db;
+    height: auto;
+    background: url(./formimage.jpeg);
 }
 .footer-form button{
     padding: 20px;
     background-color: #f29231db;
-    margin-bottom: 20px;
+    margin-top: 20px;
     border-radius: 50px;
+}
+.footer-form button:hover{
+    background: white;
+    color: #f29231db;
 }
 .ff-form{
     width: 50%;
@@ -612,10 +616,6 @@ nav .logo span {
    position: relative;
    left: 25%;
    background: white;
-   gap: 10px;
-   border-top: 1px solid #f29231db;
-   border-bottom: 1px solid #f29231db;
-   top: 10%;
 }
 
 .ff-form-info{
@@ -634,7 +634,7 @@ text-align: center;
 .form-input input{
     border: 1px solid;
     width: 70%;
-    height: 50px;
+    height: 30px;
     font-size: 16px;
     text-transform: capitalize;
     text-align: left ;
